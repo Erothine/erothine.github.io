@@ -1,0 +1,26 @@
+.content
+{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width: 800px)
+{
+    .content-logo{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media(max-width: 350px)
+{
+    .content-nav{
+        flex-direction:column;
+        width: 100%;
+    }
+}
+@media(max-width: 350px)
+{
+    .content-map{
+        flex-direction:column;
+        width: 100%;
+    }
+}
