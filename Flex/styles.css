@@ -1,0 +1,26 @@
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+}
+.navegacion
+{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width: 800px)
+{
+    .flex-container{
+        flex-direction: column;
+        .left, .right{flex: 100%}
+        }
+    
+}
+@media(max-width: 350px)
+{
+    .navegacion{
+        flex-direction:column;
+        .left, .right{flex: 100%}
+        }
+
+}             
